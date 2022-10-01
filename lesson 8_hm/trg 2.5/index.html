@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+>
+    <title>JS targil</title>
+</head>
+<body>
+    <h2>home work trg 5</h2>
+    <script>
+    
+        
+    salary = parseInt(prompt('salary :'))
+        if (salary <=23000) {
+            mas = salary * 0.1
+            
+        }
+        else if (salary <=46000) {
+            mas = 23000 * 0.1 + (salary - 23000) * 0.2
+            
+        }  
+        else if (salary <=120000) {
+            mas = 23000 * 0.1 + 23000 * 0.2 + (salary - 46000) * 0.3
+            
+        }  
+        else if (salary <=220000) {
+            mas = 23000 * 0.1 + 23000 * 0.2 + 74000 * 0.3 + (salary - 120000) * 0.4
+            
+        }   
+     
+        else  {
+            mas = 23000 * 0.1 + 23000 * 0.2 + 74000 * 0.3 + 100000 * 0.4 + (salary - 220000) * 0.5
+        
+        
+       }
+    
+       document.write(`${mas} `)
+    </script>    
+    
+</body>
+</html>
